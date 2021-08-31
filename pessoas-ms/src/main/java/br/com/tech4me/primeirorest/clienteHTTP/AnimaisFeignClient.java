@@ -1,4 +1,4 @@
-package br.com.tech4me.primeirorest;
+package br.com.tech4me.primeirorest.clienteHTTP;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -8,7 +8,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.tech4me.primeirorest.AnimaisFeignClient;
+import br.com.tech4me.primeirorest.clienteHTTP.AnimaisFeignClient;
 import br.com.tech4me.primeirorest.compartilhado.PessoaDto;
 import br.com.tech4me.primeirorest.model.Pessoa;
 import br.com.tech4me.primeirorest.repository.PessoaRepository;

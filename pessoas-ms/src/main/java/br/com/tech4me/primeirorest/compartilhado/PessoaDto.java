@@ -6,10 +6,19 @@ public class PessoaDto {
     private String id;
     private String nome;
     private String sobrenome;
+    private List<Animal> animais;
     
     //#region Get / Set
     public String getId() {
         return id;
+    }
+
+    public List<Animal> getAnimais() {
+        return animais;
+    }
+    
+    public void setAnimais(List<Animal> animais) {
+        this.animais = animais;
     }
 
     public void setId(String id) {
@@ -32,7 +41,6 @@ public class PessoaDto {
         this.sobrenome = sobrenome;
     }
     //#endregion
-
-    public void setAnimais(List<Animal> obterAnimais) {
-    }
+   
+    
 }
