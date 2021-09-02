@@ -3,7 +3,7 @@ package br.com.tech4me.primeirorest.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+@Document("pessoa")
 public class Pessoa {
     @Id
     private String id;

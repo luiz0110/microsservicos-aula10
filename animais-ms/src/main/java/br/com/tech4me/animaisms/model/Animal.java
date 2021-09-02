@@ -3,7 +3,7 @@ package br.com.tech4me.animaisms.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+@Document("animal")
 public class Animal {
     @Id
     private String id;
