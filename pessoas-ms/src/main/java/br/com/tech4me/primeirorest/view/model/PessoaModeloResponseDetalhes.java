@@ -5,11 +5,10 @@ import java.util.List;
 import br.com.tech4me.primeirorest.compartilhado.Animal;
 
 public class PessoaModeloResponseDetalhes {
-
     private String id;
     private String nome;
     private String sobrenome;
-    private List<Animal> animal;
+    private List<Animal> animais;
     
     public String getId() {
         return id;
@@ -29,12 +28,13 @@ public class PessoaModeloResponseDetalhes {
     public void setSobrenome(String sobrenome) {
         this.sobrenome = sobrenome;
     }
-    public List<Animal> getAnimal() {
-        return animal;
+    public List<Animal> getAnimais() {
+        return animais;
     }
-    public void setAnimal(List<Animal> animal) {
-        this.animal = animal;
+    public void setAnimais(List<Animal> animais) {
+        this.animais = animais;
     }
     
-
+    
+    
 }

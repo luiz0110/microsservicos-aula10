@@ -62,7 +62,7 @@ public class AnimalController {
         return new ResponseEntity<>(resp, HttpStatus.OK);
     }
 
-    @GetMapping(value="/{id}/lista")
+    @GetMapping(value="/{dono}/lista")
     public ResponseEntity<List<AnimalModeloResponse>> obterPorDono(@PathVariable String dono) {
         List<AnimalDto> dtos = service.obterPorDono(dono);
 
